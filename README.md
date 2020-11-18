@@ -1,23 +1,16 @@
-# Noken • Fullstack Interview • Letters game!
+# ChalkTalk • Fullstack Interview • Letters game!
 
 *Version 1.2*
 
-## This is a coding challenge for applicants interested in joining Noken.
-
-[Full job description](http://bit.ly/2lCAJR7)
+## This is a coding challenge for applicants interested in joining ChalkTalk.
 
 We ask you to *read this file carefully* **before** you begin writing a solution. 
 There is a Q&A and an example section at the end of the file, which may help you to complete this challenge faster.
 
-If you decide to continue with this process, **write us back WHEN** you expect to submit your solution. 
-This is really important so we can better arrange to wait for you, specially if you want to take a little bit longer. 
-
-If you decide NOT to continue with this process, let us know! ... So we don't keep sending your reminders.
-
 We sincerely thank you for your interest and your time.
 
 Best, 
-The Noken team!
+Eddie
 
 ## Create a React JS or React Native app
 
@@ -83,7 +76,7 @@ Implement all the interactions described in sections "The app" and "Example".
 	
 	- Implement styles using exclusively CSS, not images.
 
-	- Layour for mobile media:
+	- Layout for mobile media:
 
 		![Mobile dimensions.](./files/mobile.png)
 
@@ -131,7 +124,7 @@ Your deliverable should satisfy 2 of the following requirements:
 
 ## Part 3 – Required for all applicants
 
-Pretend a co-worker from your current job (clearly not at Noken!) submitted the following code. Imagine all external libraries and functions exist and do whatever they are supposed to do.
+Pretend a co-worker from your current job (clearly not at ChalkTalk!) submitted the following code. Imagine all external libraries and functions exist and do whatever they are supposed to do.
 
 - List the most severe problems or improvements opportunities within the following code, listing the worst first.
 
@@ -142,7 +135,7 @@ const MyServer = require('../../../aug2018/MyServer');
 import { MyUtility } from './shared_utils/MyUtility';
 const StringFormat = require('./shared_utils/StringFormat'); 
 
-const username = 'noken-server';
+const username = 'chalktalk-server';
 let password = '8%eHN-dskj@-77';
 
 function saveUser(user_object, owip) {
@@ -212,7 +205,7 @@ new MyServer({PORT: 8080}).start((request, response) => {
     - However, if some functionality is very easy to implement, try to implement it yourself (i.e. Don't install a library to figure out if a number is odd/even).
     - Choosing when and what libraries will speak about your judgement.
 - Q: This coding challenge is too long. Is it OK if I implement it partially?
-    - Although we recognize this exercise may take some time, it does measure if you have the skills we need to work at Noken.
+    - Although we recognize this exercise may take some time, it does measure if you have the skills we need to work at ChalkTalk.
     - Submitting an incomplete solution is acceptable, specially if you explain the reasons. 
     - However, a complete solution will increase the likelihood of being selected, and it will save time during our in-person interview. 
 
@@ -254,4 +247,4 @@ This board (obviously) does NOT include the following words from our [dictionary
 - STREET
 
 ## Thanks for your time!
-The Noken team!
+Eddie
