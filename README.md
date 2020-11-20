@@ -60,7 +60,7 @@ Your deliverable should satisfy all these requirements:
     1. bitbucket.org or github.com PRIVATE repo (*Note: Do NOT use a public repo because other candidates could copy your response*).
     1. Upload a compressed file somewhere and send us the URL.
     1. Email us your code.
-    - *Note: Do NOT include `node_modules` or any other files that will be auto-generated*.
+    - *Note: Do NOT include `.pyc` or any other files that will be auto-generated*.
 
 ---
 
@@ -100,7 +100,7 @@ Pretend you are creating the backend for our game's lightweight client app, and 
 
 This part is independent from Part 1: Do not modify your solution for Part 1.
 
-Implement a server using Node (ideally using Express, but other frameworks would work) to serve the following endpoints:
+Implement a server using Python (any framework you like works) to serve the following endpoints:
 
 - Load the content of [`board.json`](files/test-board-1.json) and shuffle the tiles when your server starts. Serve the shuffled board via GET method.
 - Serve the file [`dictionary.json`](files/dictionary.json) statically via GET methods.
